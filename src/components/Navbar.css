@@ -1,0 +1,65 @@
+
+.ellipse-bg {
+  position: absolute;
+  width: 2140.95px;
+  height: 1247.16px;
+  top: -478px;
+  left: -352px;
+  background: rgba(4, 37, 88, 1);
+  transform: rotate(-15.86deg);
+  z-index: -1;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+
+.navbar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  height: 120px;
+}
+
+
+.logo {
+  width: 268px;
+  height: 93px;
+  margin-left: 137px;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin-left: 116px;
+  margin-top: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.login-btn {
+  margin-left: auto;
+  margin-right: 100px;
+  width: 139px;
+  height: 40px;
+  padding: 8px 20px;
+  background: rgba(194, 232, 255, 1);
+  color: rgba(4, 37, 88, 1);
+  font-weight: 600;
+  border: 1px solid rgba(4, 37, 88, 1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: rgba(174, 220, 255, 1);
+}
