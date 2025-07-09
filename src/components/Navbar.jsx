@@ -14,7 +14,7 @@ function Navbar() {
         <li><a href="#">Services</a></li>
       </ul>
 
-      <button className="login-btn">Join</button>
+      <button className="join-btn">Join</button>
     </nav>
   );
 }

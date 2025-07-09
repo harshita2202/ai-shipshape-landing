@@ -1,0 +1,66 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 700px; /* Enough space to contain the full hero area */
+  margin-top: -200px; /* Pull up to sit on the ellipse */
+}
+
+.hero-text {
+  position: absolute;
+  top: 270px;
+  left: 133px;
+  width: 1139px;
+  color: white;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.hero-text p {
+  width: 450px;
+  margin-top: 32px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cce3f8;
+}
+
+.hero-buttons {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.btn-demo,
+.btn-learn {
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid rgba(4, 37, 88, 1);
+}
+
+.btn-demo {
+  background-color: rgba(194, 232, 255, 1);
+  color: rgba(4, 37, 88, 1);
+}
+
+.btn-learn {
+  background-color: white;
+  color: rgba(4, 37, 88, 1);
+}
+
+.hero-ship {
+  position: absolute;
+  width: 1021px;
+  height: auto;
+  top: 103px;
+  left: 672px;
+  transform: rotate(0deg) scaleX(-1);; 
+  z-index: 1;
+}
