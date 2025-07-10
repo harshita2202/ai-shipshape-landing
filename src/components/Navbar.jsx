@@ -4,9 +4,10 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar-container">
-      <div className="ellipse-bg"></div>
+      <div className="ellipse-bg"></div> {/* Ellipse is back! */}
+
       <img src="/logo.png" alt="AiShipshape Logo" className="logo" />
-      
+
       <ul className="nav-links">
         <li><a href="#">Home</a></li>
         <li><a href="#">About Us</a></li>

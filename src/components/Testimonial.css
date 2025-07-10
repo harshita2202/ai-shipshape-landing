@@ -2,10 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 80px 137px;
-  background-color: #f2f7fd;
-  gap: 60px;
+  width: 1168px;
   height: 553.6px;
+  top: 800px;
+  left: 145px;
+  z-index: 1;
+  position: relative;
 }
 
 .testimonial-image img {
@@ -23,16 +25,20 @@
 .testimonial-text h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 36px; /* Matches "Heading 3" */
+  font-size: 36px; 
   line-height: 120%;
   color: rgba(4, 37, 88, 1);
   margin-bottom: 32px;
+  margin-top: 0;
+  height: 96px;
 }
 
 .testimonial-text p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 18px; /* Matches "Text Medium" */
+  font-size: 18px; 
   line-height: 150%;
   color: rgba(83, 129, 178, 1);
+  height: 81px;
+  top: 100.7px;
 }

@@ -1,17 +1,18 @@
+/* navbar.css */
 
 .ellipse-bg {
   position: absolute;
-  width: 2140.95px;
-  height: 1150.16px;
-  top: -478px;
-  left: -352px;
+  width: 2140.95px;         /* Increased to fully cover ship side */
+  height: 1247.16px;        /* Taller for better background coverage */
+  top: -478px;           /* Shift up */
+  left: -352px;         /* Shift more to left */
   background: rgba(4, 37, 88, 1);
   transform: rotate(-15.86deg);
   z-index: -1;
   opacity: 1;
   border-radius: 50%;
+  box-sizing: border-box;
 }
-
 
 .navbar-container {
   position: relative;
@@ -20,22 +21,28 @@
   justify-content: flex-start;
   padding: 0;
   height: 120px;
+  width: 100%;
+  box-sizing: border-box;
 }
-
 
 .logo {
   width: 268px;
-  height: 93px;
+  height: 92.81px;
+  margin-top: 48px;
   margin-left: 137px;
+  box-sizing: border-box
 }
-
 
 .nav-links {
   list-style: none;
   display: flex;
   gap: 24px;
-  margin-left: 116px;
-  margin-top: 10px;
+  margin-left: 280px;
+  margin-top: 40px;
+  padding: 0;
+  width: 482px;
+  height: 36px;
+
 }
 
 .nav-links li a {
@@ -44,7 +51,6 @@
   font-size: 18px;
   font-weight: 500;
 }
-
 
 .join-btn {
   margin-left: auto;
@@ -58,8 +64,10 @@
   border: 1px solid rgba(4, 37, 88, 1);
   border-radius: 10px;
   cursor: pointer;
+  top: 68px;
+  left: 1135px;
 }
 
-.login-btn:hover {
+.join-btn:hover {
   background: rgba(174, 220, 255, 1);
 }
