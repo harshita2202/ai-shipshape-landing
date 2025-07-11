@@ -1,12 +1,19 @@
+.hero-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1170px;
+  margin: 120px auto 0 auto;
+  padding: 0 20px;
+  z-index: 2;
+  height: 600px;
+}
 
 
 .hero-text {
-  position: absolute;
-  top: 270px;
-  left: 133px;
-  width: 1139px;
+  width: 50%;
   color: white;
-  z-index: 2;
   box-sizing: border-box;
   gap: 80px;
 }
@@ -16,16 +23,16 @@
   font-weight: 800;
   line-height: 1.3;
   margin: 0;
+  left: 150px;
 }
 
 .hero-text p {
   width: 450px;
-  height: 161;
-  top: 509px;
-  left: 137px;
   font-size: 18px;
   line-height: 1.5;
   color: #cce3f8;
+  margin-top: 24px;
+   left: 100px;
 }
 
 .hero-buttons {
@@ -66,10 +73,12 @@
 
 .hero-ship {
   position: absolute;
-  width: 1021px;
-  height: 1021;
-  top: 103px;
-  left: 672px;
+  width: 1100px;       /* Make it bigger */
+  top: -130px;          /* Push downward */
+  left: 600px;         /* Shift right */
   transform: scaleX(-1);
   z-index: 1;
 }
+
+
+

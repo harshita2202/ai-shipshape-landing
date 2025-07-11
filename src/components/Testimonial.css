@@ -4,10 +4,9 @@
   justify-content: space-between;
   width: 1168px;
   height: 553.6px;
-  top: 800px;
-  left: 145px;
+  margin: 100px auto; /* ✅ replaces top/left */
   z-index: 1;
-  position: relative;
+    margin-top: 70px;
 }
 
 .testimonial-image img {

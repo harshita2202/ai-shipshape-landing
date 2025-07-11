@@ -1,0 +1,152 @@
+/* Features Section Wrapper */
+.features-section {
+  width: 100%;
+  max-width: 1171px;
+  margin: 0 auto;
+  padding: -20px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Section Heading */
+.features-heading-wrapper {
+  width: 100%;
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: -20px;        
+  margin-bottom: 4px;      
+  gap: 0px;                 
+}
+
+.features-tag {
+  width: 63px;
+  height: 24px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: rgba(4, 37, 88, 1);
+}
+
+.features-title {
+  width: 768px;
+  height: 116px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 40px; /* Heading 2 size */
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(4, 37, 88, 1);
+}
+
+/* Cards Container */
+.features-cards-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+/* Individual Card */
+.feature-card {
+  width: 369px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-image {
+  width: 369px;
+  height: 233px;
+  object-fit: cover;
+}
+
+/* Card Content */
+.feature-content {
+  width: 305px;
+  gap: 2px;
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+/* Card Heading */
+.feature-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px; /* Heading 4 */
+  line-height: 130%;
+  letter-spacing: 0%;
+   background: none;
+  color:rgba(4, 37, 88, 1) ;
+  padding: 8px 8px 4px 8px;
+}
+
+/* Card Text */
+.feature-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px; /* Text Regular */
+  line-height: 150%;
+  background: none;
+  color:rgba(4, 37, 88, 1) ;
+  padding: 8px 8px 4px 8px;
+}
+
+/* Learn More Button Inside Cards */
+.card-learn-more {
+  gap: 6px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background: none;
+  border: none;
+  color: rgba(4, 37, 88, 1);
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 8px 16px 8px;
+}
+
+.card-learn-more .chevron {
+  width: 20px;
+  height: 20px;
+}
+
+/* Expand All Button at Bottom */
+.expand-all-button-wrapper {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+/* Learn More Button */
+.expand-all-button {
+  width: 177px;
+  height: 48px;
+  padding: 12px 24px;
+  border-radius: 10px; /* ✅ Rounded button */
+  border: 1px solid black; /* ✅ Black border */
+  background: white;
+  color: rgba(4, 37, 88, 1); /* ✅ Text color */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px; /* ✅ Icon spacing */
+  cursor: pointer;
+}
+
+.card-learn-more .chevron {
+  width: 24px;
+  height: 24px;
+}
+

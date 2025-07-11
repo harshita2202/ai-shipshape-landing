@@ -1,10 +1,9 @@
 .challenges-section {
-  position: relative;
-  width: auto;
-  height: 1329px;
-  top: 950px;
+  width: 100%;
   background: rgba(4, 37, 88, 1);
-  margin: 0 auto;
+  margin: 100px auto; /* ✅ spacing from previous section */
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 
@@ -45,6 +44,7 @@
   flex-wrap: wrap;
 }
 
+
 .tab-card {
   width: 399px;
   height: auto;
@@ -54,41 +54,61 @@
   text-align: center;
   color: white;
   box-sizing: border-box;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.tab-card h3 {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 8px;
-}
-
-.tab-card p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 150%;
-  color: white;
+.tab-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-4px); /* subtle lift effect */
 }
 
 .tab-card.highlight {
   border-bottom: 8px solid rgba(194, 232, 255, 1);
 }
 
+
 .tab-image {
-  width: 80%; /* Reduced width */
-  max-width: 800px; /* Adjusted max-width */
-  height: 400px; /* Reduced height */
-  margin: 0 auto; /* This centers the element */
+  width: 1169px;
+  height: 674px;
+  margin: 0 auto;
+  background-color: #ddd;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
-  background: #ddd;
-  display: flex; /* Added for better centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .tab-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center; /* Ensure image is centered within container */
+  border-radius: 20px;
+}
+
+
+@media (max-width: 1280px) {
+  .tab-image {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1169 / 674;
+  }
+}
+
+@media (max-width: 768px) {
+  .tabs-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab-card {
+    width: 90%;
+  }
+
+  .section-title .heading {
+    font-size: 24px;
+    padding: 0 16px;
+  }
 }
