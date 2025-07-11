@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './challenges.css';
-import defaultphoto from '../assets/defaultphoto.png'; 
-import default2 from '../assets/default2.png';
-import  default3 from '../assets/default3.png';
+import defaultphoto from '../../assets/defaultphoto.png'; 
+import default2 from '../../assets/default2.png';
+import  default3 from '../../assets/default3.png';
 
 const Challenges = () => {
   const [activeTab, setActiveTab] = useState(0);

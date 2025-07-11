@@ -1,8 +1,8 @@
 .challenges-section {
   width: 100%;
   background: rgba(4, 37, 88, 1);
-  margin: 100px auto; /* ✅ spacing from previous section */
-  padding-top: 80px;
+  margin: 0 auto; /* ✅ spacing from previous section */
+  padding-top: 20px;
   padding-bottom: 80px;
 }
 
@@ -22,7 +22,7 @@
   font-weight: 600;
   color: white;
   font-family: 'Roboto', sans-serif;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .section-title .heading {
@@ -33,6 +33,9 @@
   font-family: 'Roboto', sans-serif;
   max-width: 800px;
   margin-top: 10px;
+  text-align: center;     
+  margin-left: auto;     
+  margin-right: auto;
 }
 
 

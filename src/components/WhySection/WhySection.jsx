@@ -1,6 +1,6 @@
 import React from 'react';
 import './WhySection.css';
-import whyImage from '../assets/whyImage.png'; 
+import whyImage from '../../assets/whyImage.png'; 
 
 const WhySection = () => {
   return (

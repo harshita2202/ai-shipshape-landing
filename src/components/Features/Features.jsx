@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './features.css';
-import feature1 from '../assets/feature1.png';
-import feature2 from '../assets/feature2.png';
-import feature3 from '../assets/feature3.png';
+import feature1 from '../../assets/feature1.png';
+import feature2 from '../../assets/feature2.png';
+import feature3 from '../../assets/feature3.png';
 
 const featuresData = [
   {

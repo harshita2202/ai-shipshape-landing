@@ -52,11 +52,10 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="footer-bottom">
-        <p>© 2025 AiShipShape. All rights reserved.</p>
+        <p>© 2025 AiShipshape. All rights reserved.</p>
         <div className="footer-policies">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms of Service</a>
-          <a href="#">Cookies Settings</a>
         </div>
       </div>
     </footer>

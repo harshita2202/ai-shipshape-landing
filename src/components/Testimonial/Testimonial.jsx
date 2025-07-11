@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonial.css";
-import defaultphoto from '../assets/defaultphoto.png'
+import defaultphoto from '../../assets/defaultphoto.png'
 
 function Testimonial() {
   return (
