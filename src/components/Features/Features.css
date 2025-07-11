@@ -35,14 +35,14 @@
   height: 116px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 40px; /* Heading 2 size */
+  font-size: 40px; 
   line-height: 120%;
   letter-spacing: 0%;
   text-align: center;
   color: rgba(4, 37, 88, 1);
 }
 
-/* Cards Container */
+
 .features-cards-wrapper {
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@
   margin-bottom: 20px;
 }
 
-/* Individual Card */
+
 .feature-card {
   width: 369px;
   display: flex;
@@ -68,7 +68,7 @@
   object-fit: cover;
 }
 
-/* Card Content */
+
 .feature-content {
   width: 305px;
   gap: 2px;
@@ -78,11 +78,11 @@
   background: white;
 }
 
-/* Card Heading */
+
 .feature-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 24px; /* Heading 4 */
+  font-size: 24px;
   line-height: 130%;
   letter-spacing: 0%;
    background: none;
@@ -90,18 +90,18 @@
   padding: 8px 8px 4px 8px;
 }
 
-/* Card Text */
+
 .feature-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px; /* Text Regular */
+  font-size: 16px; 
   line-height: 150%;
   background: none;
   color:rgba(4, 37, 88, 1) ;
   padding: 8px 8px 4px 8px;
 }
 
-/* Learn More Button Inside Cards */
+
 .card-learn-more {
   gap: 6px;
   font-size: 16px;
@@ -121,28 +121,27 @@
   height: 20px;
 }
 
-/* Expand All Button at Bottom */
+
 .expand-all-button-wrapper {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-/* Learn More Button */
 .expand-all-button {
   width: 177px;
   height: 48px;
   padding: 12px 24px;
-  border-radius: 10px; /* ✅ Rounded button */
-  border: 1px solid black; /* ✅ Black border */
+  border-radius: 10px; 
+  border: 1px solid black; 
   background: white;
-  color: rgba(4, 37, 88, 1); /* ✅ Text color */
+  color: rgba(4, 37, 88, 1); 
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px; /* ✅ Icon spacing */
+  gap: 24px; 
   cursor: pointer;
 }
 

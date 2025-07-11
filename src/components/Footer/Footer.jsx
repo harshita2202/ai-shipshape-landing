@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
 
-        {/* Left Column */}
+        
         <div className="footer-left">
           <img src="/logoColor.png" alt="AiShipShape Logo" className="footer-logo" />
           <div className="footer-section">
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Right Columns */}
+        
         <div className="footer-right">
           <div className="footer-links">
             <ul>
@@ -47,10 +47,10 @@ const Footer = () => {
 
       </div>
 
-      {/* Divider */}
+  
       <hr className="footer-divider" />
 
-      {/* Bottom Section */}
+      
       <div className="footer-bottom">
         <p>© 2025 AiShipshape. All rights reserved.</p>
         <div className="footer-policies">

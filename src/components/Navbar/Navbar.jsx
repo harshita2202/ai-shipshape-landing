@@ -4,7 +4,7 @@ import './Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar-container">
-      <div className="ellipse-bg"></div> {/* Ellipse is back! */}
+      <div className="ellipse-bg"></div> 
 
       <img src="/logo.png" alt="AiShipshape Logo" className="logo" />
 

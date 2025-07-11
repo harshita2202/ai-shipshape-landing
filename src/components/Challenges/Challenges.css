@@ -1,7 +1,7 @@
 .challenges-section {
   width: 100%;
   background: rgba(4, 37, 88, 1);
-  margin: 0 auto; /* ✅ spacing from previous section */
+  margin: 0 auto; 
   padding-top: 20px;
   padding-bottom: 80px;
 }
@@ -63,7 +63,7 @@
 
 .tab-card:hover {
   background: rgba(255, 255, 255, 0.05);
-  transform: translateY(-4px); /* subtle lift effect */
+  transform: translateY(-4px); 
 }
 
 .tab-card.highlight {

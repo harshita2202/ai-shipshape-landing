@@ -1,4 +1,4 @@
-/* === CTA SECTION === */
+
 .cta-section {
   background-image: url('../../assets/CTA.png'); 
   background-size: cover;
@@ -57,7 +57,7 @@
   margin-top: 16px;
 }
 
-/* Buttons */
+
 .cta-btn {
   padding: 12px 24px;
   border-radius: 10px;
@@ -70,14 +70,13 @@
   transition: all 0.3s ease;
 }
 
-/* Primary Button */
+
 .cta-btn.primary {
   background: rgba(194, 232, 255, 1);
   border: 1px solid rgba(194, 232, 255, 1);
   color: rgba(0, 0, 0, 1);
 }
 
-/* Secondary Button */
 .cta-btn.secondary {
   background: transparent;
   border: 1px solid rgba(194, 232, 255, 1);
