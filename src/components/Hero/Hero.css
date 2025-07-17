@@ -73,9 +73,8 @@
 .hero-ship {
   position: absolute;
   width: 1000px;       
-  top: -170px;         
-  left: 600px;        
-  transform: scaleX(-1);
+  top: -200px;         
+  left: 370px;        
   z-index: 1;
 }
 

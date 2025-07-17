@@ -1,12 +1,12 @@
 import React from "react";
 import "./testimonial.css";
-import defaultphoto from '../../assets/defaultphoto.png'
+import testimonialpic from '../../assets/testimonialpic.png'
 
 function Testimonial() {
   return (
     <div className="testimonial-container">
       <div className="testimonial-image">
-        <img src={defaultphoto} alt="Testimonial" />
+        <img src={testimonialpic} alt="Testimonial" />
       </div>
 
       <div className="testimonial-text">

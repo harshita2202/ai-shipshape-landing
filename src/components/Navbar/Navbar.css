@@ -2,10 +2,10 @@
 
 .ellipse-bg {
   position: absolute;
-  width: 2140.95px;         /* Increased to fully cover ship side */
-  height: 1247.16px;        /* Taller for better background coverage */
-  top: -478px;           /* Shift up */
-  left: -352px;         /* Shift more to left */
+  width: 2140.95px;         
+  height: 1247.16px;        
+  top: -478px;         
+  left: -352px;        
   background: rgba(4, 37, 88, 1);
   transform: rotate(-15.86deg);
   z-index: -1;

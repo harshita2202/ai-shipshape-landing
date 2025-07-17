@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './challenges.css';
 import defaultphoto from '../../assets/defaultphoto.png'; 
-import default2 from '../../assets/default2.png';
-import  default3 from '../../assets/default3.png';
+import challengePic1 from '../../assets/challengePic1.png';
+import challengePic2 from '../../assets/challengePic2.png';
 
 const Challenges = () => {
   const [activeTab, setActiveTab] = useState(0);
 
-  const images = [ defaultphoto , default2,  default3];
+  const images = [ challengePic1, challengePic2, defaultphoto ];
 
   const handleTabClick = (index) => {
     setActiveTab(index);
