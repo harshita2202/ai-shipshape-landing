@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import ship from "../../assets/ship.png"; 
+import ship from "../../assets/ship3.png"; 
 
 
 function Hero() {

@@ -91,10 +91,11 @@
 
 .hero-ship {
   position: absolute;
-  width: 1050px;       
-  top: -250px;         
-  left: 370px;        
+  width: 1150px;       
+  top: -310px;         
+  left: 440px;        
   z-index: 2;
+  transform: scaleX(-1);
 }
 
 
