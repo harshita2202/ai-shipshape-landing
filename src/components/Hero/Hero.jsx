@@ -1,8 +1,12 @@
 import React from "react";
 import "./Hero.css";
 import ship from "../../assets/ship.png"; 
+
+
 function Hero() {
   return (
+      <div className="hero-wrapper">
+      <div className="ellipse-bg"></div>
     <div className="hero-container">
       <div className="hero-text">
         <h1>
@@ -21,6 +25,7 @@ function Hero() {
       </div>
 
       <img src={ship} alt="Ship" className="hero-ship" />
+    </div>
     </div>
   );
 }

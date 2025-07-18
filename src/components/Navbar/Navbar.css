@@ -1,34 +1,22 @@
-/* navbar.css */
 
-.ellipse-bg {
-  position: absolute;
-  width: 2140.95px;         
-  height: 1247.16px;        
-  top: -478px;         
-  left: -352px;        
-  background: rgba(4, 37, 88, 1);
-  transform: rotate(-15.86deg);
-  z-index: -1;
-  opacity: 1;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
 
 .navbar-container {
+   background-color: #042558;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0;
-  height: 120px;
+  height: 160px;
   width: 100%;
   box-sizing: border-box;
+  z-index: 10;
 }
 
 .logo {
   width: 268px;
   height: 92.81px;
-  margin-top: 48px;
+  margin-top: 30px;
   margin-left: 137px;
   box-sizing: border-box
 }
@@ -50,8 +38,13 @@
   color: white;
   font-size: 18px;
   font-weight: 500;
+    position: relative;
+  z-index: 2;
 }
-
+.nav-links li a:hover {
+  color: #c2e8ff; 
+  border-bottom: 2px solid #c2e8ff;
+}
 .join-btn {
   margin-left: auto;
   margin-right: 100px;

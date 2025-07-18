@@ -1,3 +1,22 @@
+.hero-wrapper {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.ellipse-bg {
+  position: absolute;
+  width: 2140.95px;
+  height: 1110px;
+  top: -478px;
+  left: -352px;
+  background: rgba(4, 37, 88, 1);
+  transform: rotate(-15.86deg);
+  z-index: 0;
+  opacity: 1;
+  border-radius: 50%;
+}
+
 .hero-container {
   position: relative;
   display: flex;
@@ -72,10 +91,10 @@
 
 .hero-ship {
   position: absolute;
-  width: 1000px;       
-  top: -200px;         
+  width: 1050px;       
+  top: -250px;         
   left: 370px;        
-  z-index: 1;
+  z-index: 2;
 }
 
 
