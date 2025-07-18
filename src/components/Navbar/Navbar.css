@@ -7,16 +7,16 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0;
-  height: 160px;
+  height: 100px;
   width: 100%;
   box-sizing: border-box;
   z-index: 10;
 }
 
 .logo {
-  width: 268px;
-  height: 92.81px;
-  margin-top: 30px;
+  width: 200px;
+  height: 70.81px;
+  margin-top: 10px;
   margin-left: 137px;
   box-sizing: border-box
 }
