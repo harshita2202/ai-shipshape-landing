@@ -1,6 +1,6 @@
 import React from "react";
 import "./testimonial.css";
-import testimonialpic from '../../assets/testimonialpic.png'
+import testimonialpic from '../../assets/testimonialpic.jpg'
 
 function Testimonial() {
   return (
