@@ -82,3 +82,19 @@
   border: 1px solid rgba(194, 232, 255, 1);
   color: rgba(4, 37, 88, 1);
 }
+
+.mobile-text {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .desktop-text {
+    display: none;
+  }
+
+  .mobile-text {
+    display: inline;
+  }
+}
+

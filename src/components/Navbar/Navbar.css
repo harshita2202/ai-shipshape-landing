@@ -1,7 +1,10 @@
-
+.navbar {
+  margin: 0;
+  padding-bottom: 0;
+}
 
 .navbar-container {
-   background-color: #042558;
+  background-color: #042558;
   position: relative;
   display: flex;
   align-items: center;
@@ -18,7 +21,7 @@
   height: 70.81px;
   margin-top: 10px;
   margin-left: 137px;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .nav-links {
@@ -30,7 +33,6 @@
   padding: 0;
   width: 482px;
   height: 36px;
-
 }
 
 .nav-links li a {
@@ -38,13 +40,15 @@
   color: white;
   font-size: 18px;
   font-weight: 500;
-    position: relative;
+  position: relative;
   z-index: 2;
 }
+
 .nav-links li a:hover {
-  color: #c2e8ff; 
+  color: #c2e8ff;
   border-bottom: 2px solid #c2e8ff;
 }
+
 .join-btn {
   margin-left: auto;
   margin-right: 100px;
@@ -64,3 +68,120 @@
 .join-btn:hover {
   background: rgba(174, 220, 255, 1);
 }
+
+
+.hamburger {
+  display: none;
+}
+
+.arrow {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+@media (max-width: 1024px) {
+  .navbar-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    padding: 16px 24px;
+    position: relative;
+  }
+
+  .logo {
+    width: 160px;
+    height: auto;
+    margin: 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    width: 30px;
+    height: 24px;
+    position: absolute;
+    right: 24px;
+    top: 32px;
+    z-index: 25;
+  }
+
+  .hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 2px;
+    transition: 0.3s ease;
+  }
+
+  
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 90px;
+    right: 24px;
+    width: 220px;
+    background-color: #042558;
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
+    z-index: 20;
+    height: 300px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-bottom: 18px;
+    width: 100%;
+  }
+
+  .nav-links li:last-child {
+    margin-bottom: 0;
+  }
+
+  .nav-links li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .nav-links li a:hover {
+    color: #c2e8ff;
+    border-bottom: 2px solid #c2e8ff;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .arrow {
+    font-size: 12px;
+    margin-left: 6px;
+  }
+
+  .close-icon {
+    position: absolute;
+    top: 24px;
+    right: 28px;
+    font-size: 26px;
+    color: white;
+    z-index: 30;
+    cursor: pointer;
+  }
+}
+
+
+.nav-links {
+  background-color: #042558 !important;
+}
+

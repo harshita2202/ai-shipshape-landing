@@ -150,3 +150,32 @@
   height: 24px;
 }
 
+@media (max-width: 768px) {
+  .features-title {
+    width: 90%;
+    font-size: 34px;
+    line-height: 130%;
+    height: auto;
+    padding: 0 12px;
+    margin: 0 auto;
+  }
+
+  .features-heading-wrapper {
+    padding: 0 16px;
+  }
+
+  .feature-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .feature-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-content {
+    width: 100%;
+    padding: 12px;
+  }
+}
