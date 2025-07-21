@@ -160,10 +160,20 @@
     border-bottom: 2px solid #c2e8ff;
   }
 
-  .join-btn {
-    display: none;
+   .join-btn {
+    display: block;
+    margin-top: 10px;
+    width: auto;
+    text-align: center;
+    padding: 10px 20px;
+    background: rgba(194, 232, 255, 1);
+    color: rgba(4, 37, 88, 1);
+    font-weight: 600;
+    border: 1px solid rgba(4, 37, 88, 1);
+     cursor: pointer;
+    border-radius: 10px;
+    margin-right: 50px;
   }
-
   .arrow {
     font-size: 12px;
     margin-left: 6px;
