@@ -51,13 +51,13 @@
     width: 100%;
     padding: 24px 16px;
     gap: 24px;
-    margin-top: -30px; /* Pull testimonial closer to ship */
+    margin-top: -30px; 
   }
 
   .testimonial-text {
     max-width: 100%;
     padding-left: 16px;
-    padding-right: 16px; /* Balanced padding */
+    padding-right: 16px;
     word-break: break-word;
     text-align: center;
     margin: 0 auto;
@@ -67,8 +67,8 @@
     font-size: 28px;
     font-weight: 700;
     line-height: 1.4;
-    margin-top: -70px; /* Reduced to bring it closer to ship */
-    margin-bottom: 20px; /* More gap below heading */
+    margin-top: -70px; 
+    margin-bottom: 20px;
     color: #042558;
   }
 
@@ -95,7 +95,7 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .testimonial-container {
-    flex-direction: row; /* same as desktop */
+    flex-direction: row; 
     align-items: center;
     justify-content: space-between;
     width: 100%;
