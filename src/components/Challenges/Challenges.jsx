@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './challenges.css';
+import './Challenges.css';
 import defaultphoto from '../../assets/challengePic3.jpg'; 
 import challengePic1 from '../../assets/challengePic1.png';
 import challengePic2 from '../../assets/challengePic2.png';
