@@ -71,11 +71,11 @@
 }
 
 
-.cta-btn.primary {
+/* .cta-btn.primary {
   background: rgba(194, 232, 255, 1);
   border: 1px solid rgba(194, 232, 255, 1);
   color: rgba(0, 0, 0, 1);
-}
+} */
 
 .cta-btn.secondary {
   background: transparent;

@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import "./Navbar.css";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
+
+  
+    const navigate = useNavigate();
+
+ const handleClick = () => {
+    navigate('/contact');
+  };
+
 
   return (
     <header style={{ position: "relative", zIndex: 10 }}>
@@ -27,7 +36,7 @@ function Navbar() {
 </li>
 
         </ul>
-        <button className="join-btn">Join</button>
+        <button className="join-btn"  onClick={handleClick}>Join</button>
       </nav>
     </header>
   );

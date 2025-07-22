@@ -4,7 +4,7 @@ import testimonialpic from '../../assets/testimonialpic.jpg'
 
 function Testimonial() {
   return (
-    <div className="testimonial-container">
+    <div id="testimonial" className="testimonial-container">
       <div className="testimonial-image">
         <img src={testimonialpic} alt="Testimonial" />
       </div>

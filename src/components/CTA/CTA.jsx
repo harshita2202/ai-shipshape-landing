@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './CTA.css';
 
 const CTA = () => {
+    const navigate = useNavigate();
+
+ const handleClick = () => {
+    navigate('/contact');
+  };
+
   return (
     <section className="cta-section">
       <div className="cta-overlay">
@@ -13,11 +20,11 @@ const CTA = () => {
             Unlock the potential of AI-driven maritime solutions for smarter, safer voyages today.
           </p>
           <div className="cta-actions">
-  <button className="cta-btn primary">
+  {/* <button className="cta-btn primary">
     <span className="desktop-text">Start Your FREE Trial</span>
     <span className="mobile-text">Start</span>
-  </button>
-  <button className="cta-btn secondary">
+  </button> */}
+  <button className="cta-btn secondary"  onClick={handleClick}>
     <span className="desktop-text">Talk to Expert</span>
     <span className="mobile-text">Talk</span>
   </button>

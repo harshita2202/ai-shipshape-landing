@@ -12,11 +12,11 @@ const Footer = () => {
           <img src="/logoColor.png" alt="AiShipShape Logo" className="footer-logo" />
           <div className="footer-section">
             <h4>Address:</h4>
-            <p>Level 1, 12 Sample St, Sydney NSW 2000</p>
+            <p>110 Hilmanton, Lower Earley, Reading, England, RG6 4HJ</p>
           </div>
           <div className="footer-section">
             <h4>Contact:</h4>
-            <a href="tel:18001234567">1800 123 4567</a><br />
+            <a href="tel:18001234567">+447590662656</a><br />
             <a href="mailto:info@aishipshape.com">info@aishipshape.com</a>
           </div>
           <div className="footer-socials">
